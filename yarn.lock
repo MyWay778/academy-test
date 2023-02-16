@@ -46,14 +46,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@atls-ui-parts/layout@npm:^0.0.4":
-  version: 0.0.4
-  resolution: "@atls-ui-parts/layout@npm:0.0.4"
+"@atls-ui-parts/layout@npm:^0.0.5":
+  version: 0.0.5
+  resolution: "@atls-ui-parts/layout@npm:0.0.5"
   peerDependencies:
     "@emotion/styled": ^11.1.5
     react: ^17.0.1
     styled-system: ^5.1.5
-  checksum: 2f5324f7dd84a25344cdbab63fa57d6c75f87aca0c5948bdfe9662060555a6027a9bc8b6935d885bde68a4f8abc504dc654fdd00dc8caae483d7d7f4ddc9ce33
+  checksum: d7fb2838b6a14c661b9f456837a36e3a1f58382bdd3bf43558eaf119aef4ef8d2437cf8d9c05f43c0ca34747c2eb443e15dd37d7580d867f180154f60c236b8e
   languageName: node
   linkType: hard
 
@@ -1132,7 +1132,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@ui/layout@workspace:frontend/ui/layout"
   dependencies:
-    "@atls-ui-parts/layout": ^0.0.4
+    "@atls-ui-parts/layout": ^0.0.5
     "@emotion/react": ^11.9.0
     "@emotion/styled": ^11.8.1
     "@types/styled-system": ^5

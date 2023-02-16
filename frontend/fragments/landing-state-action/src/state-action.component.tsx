@@ -24,13 +24,13 @@ const StateAction: FC = () => {
       <Column justifyContent='center'>
         <Layout>
           <Text fontWeight='medium' fontSize='big' ref={node}>
-            {getRandomizedColorMessage<number>('I have randomized color')}
+            {getRandomizedColorMessage<string>('I have randomized color')}
           </Text>
         </Layout>
         <Layout flexBasis={16} />
         <Layout>
-          <Box cursor='pointer'>
-            <Text fontWeight='medium' fontSize='big' onClick={handleClick}>
+          <Box>
+            <Text fontWeight='medium' cursor="pointer" fontSize='big' onClick={handleClick}>
               Click me
             </Text>
           </Box>
